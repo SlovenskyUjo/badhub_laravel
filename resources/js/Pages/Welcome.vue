@@ -179,7 +179,6 @@ const copyIP = () => {
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
-                    draggable: true,
                     progress: undefined,
                 });
             } else {
@@ -189,18 +188,16 @@ const copyIP = () => {
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
-                    draggable: true,
                     progress: undefined,
                 });
             }
-        } catch (err) {
-            toast.error('Fallback: Failed to copy IP address: ' + err.message, {
+        } catch (error) {
+            toast.error('Fallback: Failed to copy IP address', {
                 position: "top-center",
                 autoClose: 3000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
-                draggable: true,
                 progress: undefined,
             });
         }
