@@ -1,5 +1,5 @@
 <template>
-    <Head title="AdminTeam" />
+    <Head title="Hlasování" />
     <div class="min-h-screen flex flex-col">
         <Navbar />
         <!-- Loader -->

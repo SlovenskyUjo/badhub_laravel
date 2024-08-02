@@ -122,7 +122,7 @@
         </div>
 
         <!-- Mobile Navigation Menu -->
-        <transition name="fade">
+        <transition name="slide-fade">
             <div
                 v-if="menuOpen"
                 class="md:hidden fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-20 flex justify-center items-center"
@@ -227,12 +227,20 @@ nav {
 }
 
 /* Transition for the mobile menu */
-.fade-enter-active,
-.fade-leave-active {
+.slide-fade-enter-active,
+.slide-fade-leave-active {
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
     opacity: 0;
-    transform: scale(0.95);
+    transform: translateY(-20px);
+}
+
+.slide-fade-enter-to,
+.slide-fade-leave-from {
+    opacity: 1;
+    transform: translateY(0);
 }
 </style>

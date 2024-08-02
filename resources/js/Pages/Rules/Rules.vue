@@ -1,5 +1,5 @@
 <template>
-    <Head title="AdminTeam" />
+    <Head title="Pravidla" />
     <div class="min-h-screen flex flex-col">
         <Navbar />
 
