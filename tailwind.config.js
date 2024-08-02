@@ -12,8 +12,11 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                'shop-rgba': 'rgba(50,222,27,.2470588235)',
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Titillium', ...defaultTheme.fontFamily.sans],
             },
         },
     },
