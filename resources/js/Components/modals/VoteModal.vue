@@ -36,6 +36,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import {toast} from "vue3-toastify";
 
 const nickname = ref('');
 
@@ -45,7 +46,14 @@ function redirectToCraftList() {
         const url = `https://craftlist.org/badhub?nickname=${encodeURIComponent(trimmedNickname)}`;
         window.open(url, '_blank');
     } else {
-        alert('Prosím, zadajte svoj nickname.');
+        toast.error('Zadej svůj nick! ', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            progress: undefined,
+        });
     }
 }
 
@@ -57,7 +65,14 @@ function redirectToMinecraftServery() {
         // Otevření nové stránky
         window.open(popupUrl, '_blank');
     } else {
-        alert('Prosím, zadajte svoj nickname.');
+        toast.error('Zadej svůj nick! ', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            progress: undefined,
+        });
     }
 }
 
