@@ -28,7 +28,7 @@
             <article class="bg-[#0d0d13] h-full max-w-7xl mx-auto py-4 px-4 sm:px-6 md:px-8 lg:px-10 flex flex-col rounded-lg">
 
                 <!-- Minecraft Rules Section -->
-                <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-8 mb-6 px-4 sm:px-6 md:px-8">
+                <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6 md:px-8">
                     <img src="/storage/MC.png" alt="Minecraft Rules Icon" class="w-16 sm:w-20 md:w-24" draggable="false">
                     <h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase text-center sm:text-left">
                         Pravidla pro Minecraft server
