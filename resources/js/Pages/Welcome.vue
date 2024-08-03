@@ -20,18 +20,18 @@
         </div>
 
         <!-- Main Content -->
-        <main v-else class="flex-1 pt-16"> <!-- Add padding-top to avoid overlap with fixed navbar -->
+        <main v-else class="flex-1 pt-16">
             <!-- Home Section -->
             <section id="home" class="relative bg-cover min-h-screen" style="background-image: url('/storage/background.png');">
-                <div class="flex flex-col md:flex-row items-center justify-center w-full md:max-w-6xl mx-auto px-4 py-12 md:py-24">
-                    <!-- Text Section -->
+                <div class="absolute inset-0 bg-black/30 backdrop-blur-sm z-0"></div>
+
+                <div class="relative flex flex-col md:flex-row items-center justify-center w-full md:max-w-6xl mx-auto px-4 py-12 md:py-24 z-10">
                     <div class="text-center md:text-left md:w-1/2 flex flex-col gap-4 items-center md:items-start justify-center">
-                        <h1 class="relative text-3xl md:text-5xl font-extrabold text-white mb-4 md:mb-6 animate-fade-in" style="text-shadow: 2px 2px black">Co jsme?</h1>
+                        <h1 class="relative text-3xl md:text-5xl font-extrabold text-white mb-0 animate-fade-in" style="text-shadow: 2px 2px black">Co jsme?</h1>
                         <hr class="border-0 rounded w-12 border-b-[1px] border-t-2 border-[#32de1b]" />
                         <p class="text-white text-base md:text-lg mt-4 md:mt-6 leading-relaxed animate-fade-in">
                             Server BadHub.cz byl založen v roce 2023 třemi přáteli za účelem poskytnutí nezapomenutelného zážitku ze hry, který zatím nikde jinde nenajdete. Rádi bychom vám BadHub k něčemu přirovnali, ale zatím neexistuje žádná alternativní forma, kterou by to bylo možné. Pojďte se sami přesvědčit a zažít si nový pohled na starou hru na mc.badhub.cz.
                         </p>
-                        <!-- Button Container -->
                         <div class="flex flex-col sm:flex-row gap-4 mb-4">
                             <button
                                 class="inline-flex items-center px-4 py-2 bg-[#32de1b] border border-transparent rounded-md font-bold text-sm text-[#125808] uppercase tracking-widest hover:bg-[#32e81a] transition ease-in-out duration-150"
@@ -59,12 +59,12 @@
                             <span class="ml-2">Zkopírovat IP</span>
                         </button>
                     </div>
-                    <!-- Logo Section -->
                     <div class="md:w-1/2 md:flex hidden justify-center items-center mt-12 md:mt-0">
                         <img src="/storage/logo.png" class="max-w-xs md:max-w-md h-auto animate-fadeInUp" />
                     </div>
                 </div>
             </section>
+
 
             <!-- Discord Invitation Section -->
             <section id="discord" class="w-full bg-[#0d0d13] text-white py-8">
@@ -80,7 +80,7 @@
         </main>
 
         <footer class="bg-black text-white py-3 px-6 flex items-center justify-between w-full">
-            <p class="md:text-[17px] text-xs md:ml-[3rem] break-words m-0 text-white">&copy; BadHub.cz &bull; 2024 | Vytvořil <span class="text-[#32de1b]">SlovenskyUjo</span></p>
+            <p class="md:text-[17px] text-xs md:ml-[3rem] break-words m-0 text-white">&copy; BadHub.cz &bull; 2024 | Vytvořil <a href="https://github.com/SlovenskyUjo" class="text-[#32de1b] hover:underline" target="_blank">SlovenskyUjo</a></p>
 
             <div class="flex space-x-4">
                 <a href="#" class="text-gray-400 hover:text-gray-300">
@@ -141,7 +141,7 @@ const copyIP = () => {
     const ipAddress = 'mc.badhub.cz';
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(ipAddress).then(() => {
-            toast.success('IP address copied to clipboard!', {
+            toast.success('IP Adresa zkopírována!', {
                 position: "top-center",
                 autoClose: 3000,
                 hideProgressBar: false,
@@ -173,7 +173,7 @@ const copyIP = () => {
         try {
             const successful = document.execCommand('copy');
             if (successful) {
-                toast.success('IP address copied to clipboard!', {
+                toast.success('IP Adresa zkopírována!', {
                     position: "top-right",
                     autoClose: 3000,
                     hideProgressBar: false,
