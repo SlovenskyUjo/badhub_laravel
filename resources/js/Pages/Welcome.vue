@@ -29,13 +29,14 @@
                     <div class="text-center md:text-left md:w-1/2 flex flex-col gap-4 items-center md:items-start justify-center">
                         <h1 class="relative text-3xl md:text-5xl font-extrabold text-white mb-0 animate-fade-in" style="text-shadow: 2px 2px black">Co jsme?</h1>
                         <hr class="border-0 rounded w-12 border-b-[1px] border-t-2 border-[#32de1b]" />
-                        <p class="text-white text-base md:text-lg mt-4 md:mt-6 leading-relaxed animate-fade-in">
-                            Server BadHub.cz byl založen v roce 2023 třemi přáteli za účelem poskytnutí nezapomenutelného zážitku ze hry, který zatím nikde jinde nenajdete. Rádi bychom vám BadHub k něčemu přirovnali, ale zatím neexistuje žádná alternativní forma, kterou by to bylo možné. Pojďte se sami přesvědčit a zažít si nový pohled na starou hru na mc.badhub.cz.
+                        <p class="text-white text-base md:text-lg leading-relaxed animate-fade-in">
+                            Server BadHub.cz byl založen v roce 2023 třemi přáteli za účelem poskytnutí nezapomenutelného zážitku ze hry, který zatím nikde jinde nenajdete. Rádi bychom vám BadHub k něčemu přirovnali, ale zatím neexistuje žádná alternativní forma, kterou by to bylo možné. Pojďte se sami přesvědčit a zažít si nový pohled na starou hru na <strong>mc.badhub.cz</strong>.
                         </p>
-                        <div class="flex flex-col sm:flex-row gap-4 mb-4">
+                        <div class="flex flex-col mx-auto sm:flex-row gap-4 mb-4 mt-5">
                             <button
                                 class="inline-flex items-center px-4 py-2 bg-[#32de1b] border border-transparent rounded-md font-bold text-sm text-[#125808] uppercase tracking-widest hover:bg-[#32e81a] transition ease-in-out duration-150"
                                 style="box-shadow: 0 3px #125808;"
+                                @click="copyIP"
                             >
                                 <i class="fa-solid fa-globe"></i>
                                 <span class="ml-2">Online hráču: {{ onlinePlayers }}</span>
@@ -50,14 +51,6 @@
                                 </button>
                             </a>
                         </div>
-                        <button
-                            class="inline-flex items-center px-4 py-2 bg-white border border-transparent rounded-md font-bold text-sm text-[#6b6b6b] uppercase tracking-widest hover:bg-[#e6e3e3] transition ease-in-out duration-200"
-                            style="box-shadow: 0 3px #6b6b6b;"
-                            @click="copyIP"
-                        >
-                            <i class="fa-regular fa-clipboard"></i>
-                            <span class="ml-2">Zkopírovat IP</span>
-                        </button>
                     </div>
                     <div class="md:w-1/2 md:flex hidden justify-center items-center mt-12 md:mt-0">
                         <img src="/storage/logo.png" class="max-w-xs md:max-w-md h-auto animate-fadeInUp" />
@@ -80,17 +73,17 @@
         </main>
 
         <footer class="bg-black text-white py-3 px-6 flex items-center justify-between w-full">
-            <p class="md:text-[17px] text-xs md:ml-[3rem] break-words m-0 text-white">&copy; BadHub.cz &bull; 2024 | Vytvořil <a href="https://github.com/SlovenskyUjo" class="text-[#32de1b] hover:underline" target="_blank">SlovenskyUjo</a></p>
+            <p class="md:text-[17px] text-xs md:ml-[3rem] break-words m-0 text-white">&copy; BadHub.cz &bull; 2024 | Vytvořil <a href="https://github.com/SlovenskyUjo" class="text-[#32de1b] hover:underline" target="_blank">SlovenskyUjo</a> zo ❤️</p>
 
             <div class="flex space-x-4">
-                <a href="#" class="text-gray-400 hover:text-gray-300">
-                    <i class="fab fa-facebook-f"></i>
+                <a href="https://discord.com/invite/9vhUGpzrwt" target="_blank" class="text-gray-400 hover:text-gray-300">
+                    <i class="fab fa-discord"></i>
                 </a>
-                <a href="#" class="text-gray-400 hover:text-gray-300">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-gray-300">
+                <a href="https://www.instagram.com/badhub.cz" target="_blank" class="text-gray-400 hover:text-gray-300">
                     <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@mc.badhub.cz" target="_blank" class="text-gray-400 hover:text-gray-300">
+                    <i class="fab fa-tiktok"></i>
                 </a>
             </div>
         </footer>
@@ -272,6 +265,7 @@ footer {
 body {
     margin: 0;
     padding: 0;
+    background-color: transparent; /* Added */
 }
 
 main {

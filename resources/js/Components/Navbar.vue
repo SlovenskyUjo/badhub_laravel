@@ -44,7 +44,7 @@
                         <a
                             href="https://vip.vagonbrei.eu/link/LAkWETe4mc"
                             target="_blank"
-                            class="inline-flex items-center px-2 py-2 text-lg text-white uppercase font-bold leading-6 bg-[#32de1b] hover:bg-[#32e81a] transition duration-200 ease-in-out rounded-lg"
+                            class="inline-flex items-center px-2 py-2 text-lg text-white uppercase font-bold leading-6 bg-[#2baf1d] hover:bg-[#32e81a] transition duration-200 ease-in-out rounded-lg"
                             style="text-shadow: 2px 2px black"
                         >
                             Obchod
@@ -161,7 +161,7 @@
                     <li>
                         <a
                             href="https://vip.vagonbrei.eu/link/LAkWETe4mc"
-                            class="inline-flex items-center px-2 py-2 text-lg text-white font-semibold leading-6 bg-[#32de1b] focus:outline-none focus:border-green-500 transition duration-200 ease-in-out rounded-lg"
+                            class="inline-flex items-center px-2 py-2 text-lg text-white uppercase font-bold leading-6 bg-[#2baf1d] hover:text-white hover:bg-[rgba(50,222,27,.2470588235)] transition duration-200 ease-in-out rounded-lg"
                             style="text-shadow: 2px 2px black"
                             @click="toggleMenu"
                         >
