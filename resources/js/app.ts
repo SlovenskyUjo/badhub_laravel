@@ -10,7 +10,7 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 const appName = import.meta.env.VITE_APP_NAME || 'BadHub.cz';
 
 createInertiaApp({
-    title: (title) => `${title} | ${appName}`,
+    title: (title) => `${title} | ${appName}.cz`,
     resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob<DefineComponent>('./Pages/**/*.vue')),
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
