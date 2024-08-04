@@ -35,7 +35,7 @@
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
                             <p class="font-semibold text-white text-[18px] mb-[5px] flex items-center">
                                 {{ capitalize(owner.realname) }}
-                                <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="owner.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
+                                <span class="w-3 relative top-[0.5px] h-3 rounded-full ml-2" :class="owner.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
                             <p class="text-base font-[600] mx-auto text-white text-center rounded-[5px] shadow-[2px_2px_rgba(0,0,0,.3137254902)]" style="background: -webkit-linear-gradient(0deg, rgb(255, 0, 0) 0%, rgb(255, 80, 80) 100%); text-shadow: 2px 2px rgba(0,0,0,.3137254902); padding: 2px 20px 2.5px">
                                 Majitel
@@ -55,7 +55,7 @@
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
                             <p class="font-semibold text-white text-[18px] mb-[5px] flex items-center">
                                 {{ capitalize(developer.realname) }}
-                                <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="developer.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
+                                <span class="w-3 relative top-[0.5px] h-3 rounded-full ml-2" :class="developer.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
                             <p class="text-base font-[600] mx-auto text-white text-center rounded-[5px] shadow-[2px_2px_rgba(0,0,0,.3137254902)]" style="background: -webkit-linear-gradient(0deg, rgb(251, 128, 0) 0%, rgb(255, 77, 29) 100%); text-shadow: 2px 2px rgba(0,0,0,.3137254902); padding: 2px 20px 2.5px">
                                 {{ capitalize(developer.primary_group )}}
@@ -75,7 +75,7 @@
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
                             <p class="font-semibold text-white text-[18px] mb-[5px] flex items-center">
                                 {{ capitalize(helper.realname) }}
-                                <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="helper.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
+                                <span class="w-3 relative top-[0.5px] h-3 rounded-full ml-2" :class="helper.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
                             <p class="text-base font-[600] mx-auto text-white text-center rounded-[5px] shadow-[2px_2px_rgba(0,0,0,.3137254902)]" style="background: -webkit-linear-gradient(0deg, rgb(0, 110, 255) 0%, rgb(3, 192, 211) 100%); text-shadow: 2px 2px rgba(0,0,0,.3137254902); padding: 2px 20px 2.5px">
                                 {{ capitalize(helper.primary_group )}}
@@ -95,7 +95,7 @@
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
                             <p class="font-semibold text-white text-[18px] mb-[5px] flex items-center">
                                 {{ capitalize(builder.realname) }}
-                                <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="builder.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
+                                <span class="w-3 relative top-[0.5px] h-3 rounded-full ml-2" :class="builder.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
                             <p class="text-base font-[600] mx-auto text-white text-center rounded-[5px] shadow-[2px_2px_rgba(0,0,0,.3137254902)]" style="background: -webkit-linear-gradient(0deg, rgb(0, 109, 21) 0%, rgb(0, 190, 48) 100%); text-shadow: 2px 2px rgba(0,0,0,.3137254902); padding: 2px 20px 2.5px">
                                 {{ capitalize(builder.primary_group )}}
@@ -115,7 +115,7 @@
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
                             <p class="font-semibold text-white text-[18px] mb-[5px] flex items-center">
                                 {{ capitalize(youtuber.realname) }}
-                                <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="youtuber.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
+                                <span class="w-3 relative top-[0.5px] h-3 rounded-full ml-2" :class="youtuber.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
                             <p class="text-base font-[600] mx-auto text-white text-center rounded-[5px] shadow-[2px_2px_rgba(0,0,0,.3137254902)]" style="background: -webkit-linear-gradient(0deg, rgb(218, 0, 0) 0%, rgb(253, 253, 253) 100%); text-shadow: 2px 2px rgba(0,0,0,.3137254902); padding: 2px 20px 2.5px">
                                 {{ capitalize(youtuber.primary_group )}}
