@@ -33,7 +33,7 @@
                     <div v-for="(owner, index) in owners" :key="owner.uuid" :style="{ animationDelay: `${index * 0.1}s` }" class="fade-in-grow flex flex-col md:flex-row items-center bg-[#0d0d13] rounded-lg shadow-md p-4 max-w-xs w-full">
                         <img :src="owner.skinUrl" class="w-[60px] mb-4 md:mb-0 rounded-full" alt="Skin hráča" />
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
-                            <p class="font-semibold text-white text-lg mb-3 flex items-center">
+                            <p class="font-semibold text-white text-lg mb-1.5 flex items-center">
                                 {{ capitalize(owner.realname) }}
                                 <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="owner.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
@@ -55,7 +55,7 @@
                     <div v-for="(developer, index) in developers" :key="developer.uuid" :style="{ animationDelay: `${index * 0.1}s` }" class="fade-in-grow flex flex-col md:flex-row items-center bg-[#0d0d13] rounded-lg shadow-md p-4 max-w-xs w-full">
                         <img :src="developer.skinUrl" class="w-[60px] mb-4 md:mb-0 rounded-full" alt="Skin hráča" />
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
-                            <p class="font-semibold text-white text-xl mb-3 flex items-center">
+                            <p class="font-semibold text-white text-xl mb-1.5 flex items-center">
                                 {{ capitalize(developer.realname) }}
                                 <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="developer.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
@@ -76,7 +76,7 @@
                     <div v-for="(helper, index) in helpers" :key="helper.uuid" :style="{ animationDelay: `${index * 0.1}s` }" class="fade-in-grow flex flex-col md:flex-row items-center bg-[#0d0d13] rounded-lg shadow-md p-4 max-w-xs w-full">
                         <img :src="helper.skinUrl" class="w-[60px] mb-4 md:mb-0 rounded-full" alt="Skin hráča" />
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
-                            <p class="font-semibold text-white text-xl mb-3 flex items-center">
+                            <p class="font-semibold text-white text-xl mb-1.5 flex items-center">
                                 {{ capitalize(helper.realname) }}
                                 <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="helper.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
@@ -97,7 +97,7 @@
                     <div v-for="(builder, index) in builders" :key="builder.uuid" :style="{ animationDelay: `${index * 0.1}s` }" class="fade-in-grow flex flex-col md:flex-row items-center bg-[#0d0d13] rounded-lg shadow-md p-4 max-w-xs w-full">
                         <img :src="builder.skinUrl" class="w-[60px] mb-4 md:mb-0 rounded-full" alt="Skin hráča" />
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
-                            <p class="font-semibold text-white text-xl mb-3 flex items-center">
+                            <p class="font-semibold text-white text-xl mb-1.5 flex items-center">
                                 {{ capitalize(builder.realname) }}
                                 <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="builder.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
@@ -118,7 +118,7 @@
                     <div v-for="(youtuber, index) in youtubers" :key="youtuber.uuid" :style="{ animationDelay: `${index * 0.1}s` }" class="fade-in-grow flex flex-col md:flex-row items-center bg-[#0d0d13] rounded-lg shadow-md p-4 max-w-xs w-full">
                         <img :src="youtuber.skinUrl" class="w-[60px] mb-4 md:mb-0 rounded-full" alt="Skin hráča" />
                         <div class="flex flex-col items-center md:items-start text-center md:text-left mx-auto">
-                            <p class="font-semibold text-white text-xl mb-3 flex items-center">
+                            <p class="font-semibold text-white text-xl mb-1.5 flex items-center">
                                 {{ capitalize(youtuber.realname) }}
                                 <span class="w-3 relative top-[1px] h-3 rounded-full ml-2" :class="youtuber.isLogged === 1 ? 'bg-green-500' : 'bg-red-500'"></span>
                             </p>
