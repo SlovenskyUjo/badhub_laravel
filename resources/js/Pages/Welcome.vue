@@ -22,7 +22,7 @@
         <!-- Main Content -->
         <main v-else class="flex-1 pt-16">
             <!-- Home Section -->
-            <section id="home" class="relative bg-cover min-h-screen" style="background-image: url('/storage/background.png');">
+            <section id="home" class="relative bg-cover min-h-screen bg-image">
                 <div class="absolute inset-0 bg-black/30 backdrop-blur-sm z-0"></div>
 
                 <div class="relative flex flex-col md:flex-row items-center justify-center w-full md:max-w-6xl mx-auto px-4 py-12 md:py-24 z-10">
