@@ -35,8 +35,8 @@ Route::get('/api/players/online', [MinecraftController::class, 'getOnlinePlayers
 Route::get('/invite-data', [DiscordController::class, 'getInviteData']);
 
 Route::get('/team', [TeamController::class, 'index'])->name('team.show');
-Route::get('/vote', [VoteController::class, 'index'])->name('vote.show');
+Route::get('/hlasovani', [VoteController::class, 'index'])->name('vote.show');
 Route::get('/store', [StoreController::class, 'show'])->name('store.show');
-Route::get('/rules', [RuleController::class, 'index'])->name('rules.show');
-Route::get('/map', [MapController::class, 'index'])->name('map.show');
+Route::get('/pravidla', [RuleController::class, 'index'])->name('rules.show');
+Route::get('/mapa', [MapController::class, 'index'])->name('map.show');
 require __DIR__.'/auth.php';
