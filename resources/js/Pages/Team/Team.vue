@@ -26,7 +26,7 @@
         <!-- Main Content Section -->
         <section class="flex-1 bg-black text-white py-8">
             <div class="max-w-5xl mx-auto px-4 mb-[4rem]">
-                <h1 class="text-2xl font-bold mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 2px 2px black">
+                <h1 class="text-[25px] font-[700] mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 3px 3px rgba(0,0,0,.3137254902)">
                     Vedení Projektu
                 </h1>
                 <div class="flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center">
@@ -46,7 +46,7 @@
             </div>
 
             <div class="max-w-5xl mx-auto px-4 mb-[4rem]">
-                <h1 class="text-2xl font-bold mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 2px 2px black">
+                <h1 class="text-[25px] font-[700] mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 3px 3px rgba(0,0,0,.3137254902)">
                     Developer Team
                 </h1>
                 <div class="flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center">
@@ -66,7 +66,7 @@
             </div>
 
             <div class="max-w-5xl mx-auto px-4 mb-[4rem]">
-                <h1 class="text-2xl font-bold mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 2px 2px black">
+                <h1 class="text-[25px] font-[700] mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 3px 3px rgba(0,0,0,.3137254902)">
                     Helper Team
                 </h1>
                 <div class="flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center">
@@ -86,7 +86,7 @@
             </div>
 
             <div class="max-w-5xl mx-auto px-4 mb-[4rem]">
-                <h1 class="text-2xl font-bold mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 2px 2px black">
+                <h1 class="text-[25px] font-[700] mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 3px 3px rgba(0,0,0,.3137254902)">
                     Builder Team
                 </h1>
                 <div class="flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center">
@@ -106,7 +106,7 @@
             </div>
 
             <div class="max-w-5xl mx-auto px-4 mb-[4rem]">
-                <h1 class="text-2xl font-bold mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 2px 2px black">
+                <h1 class="text-[25px] font-[700] mb-6 text-center rounded-xl py-1 uppercase fade-in" style="background: -webkit-linear-gradient(0,rgba(50,222,27,.6588235294),rgba(117,255,83,.6666666667)); text-shadow: 3px 3px rgba(0,0,0,.3137254902)">
                     Youtuber Team
                 </h1>
                 <div class="flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center">
